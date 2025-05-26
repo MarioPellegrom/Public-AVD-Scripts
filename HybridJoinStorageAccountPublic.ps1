@@ -27,8 +27,8 @@ Debug-AzStorageAccountAuth -StorageAccountName $StorageAccountName -ResourceGrou
 
 # Get the target storage account
 $storageaccount = Get-AzStorageAccount `
-        -ResourceGroupName "IP_Demo_Environment" `
-        -Name "ipdemostorageaccount"
+        -ResourceGroupName "Resource Group name" `
+        -Name "Azure Storage account name"
 
 # List the directory service of the selected service account
 $storageAccount.AzureFilesIdentityBasedAuth.DirectoryServiceOptions
