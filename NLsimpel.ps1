@@ -22,4 +22,4 @@ Set-WinUserLanguageList $ll -Force
 # 4. alles kopiëren naar systeem + nieuwe users
 Copy-UserInternationalSettingsToSystem -WelcomeScreen $true -NewUser $true
 
-Restart-Computer -Force
+#Restart-Computer -Force
